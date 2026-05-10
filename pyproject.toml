@@ -1,0 +1,18 @@
+[project]
+name = "goit-algo-hw-08"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "ruff>=0.6",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "task_01", "task_02", "task_03", "task_03_b"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
